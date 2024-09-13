@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#eae9e96f;
+}
+nav{
+    padding: 0 100px !important;
+}
+.navbar-nav .nav-item{
+    position: relative;
+    z-index:1 ;
+}
+.container{
+    margin:0;
+    width: 100%;
+}
+header .row .texts h1{
+ font-size: 100px !important;
+}
+header .row .texts p{
+    width: 75% !important;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.607) !important;
+}
+header .pic{
+    position: relative;
+}
+header .pic::after{
+    position: absolute;
+    content: "";
+    height: 40%;
+    width: 25%;
+    border: 3px solid #000;
+    left: -2%;
+    border-radius: 5px;
+    top: -8%;
+    z-index: -1;
+}
+section{
+    padding: 50px 120px;
+}
+.services h1{
+ font-size: 70px !important;
+}
+.steps i{
+    position: relative;
+}
+.steps .container .row .step div:nth-child(2) i:after,
+.steps .container .row .step div:nth-child(3) i:after{
+    position: absolute;
+    content:"";
+    width: 1px;
+    height: 150%;
+    background-color: #00000047;
+    bottom: -200%;
+    left: 50%;
+}
+.customers_says .imgs{
+    position: relative;
+}
+.customers_says .says{
+    position: absolute;
+    top: 11.3rem;
+    left: 12.7rem;
+}
+.subscribe .email {
+    position: relative;
+}
+.subscribe .email button{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+.subscribe .email input::placeholder{
+    color:#1e1e1e8e;
+   font-weight: 500;
+}
+.subscribe .email input:focus{
+  border:none;
+  outline:none;
+}
+
+footer i{
+ color:#fff;
+ background-color: #4444448e !important;
+ padding: 5px !important;
+ width: 25px;
+ font-size: 17px;
+ text-align: center !important;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    /* align-items: ; */
+    gap: 25px;
+    font-size: 19px;
+    padding: 0;
+}
+footer ul li{
+    list-style: none;
+    /* text-align: center; */
+    display: flex;
+  
+}
